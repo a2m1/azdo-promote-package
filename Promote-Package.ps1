@@ -19,11 +19,7 @@ param
     [Parameter()]
     [ValidateSet("npm" ,"nuget", "python", "universal")]
     [string]
-    $feedType = "python",
-
-    [Parameter()]
-    [switch]
-    $pester
+    $feedType = "python"
 )
 
 #global variables
